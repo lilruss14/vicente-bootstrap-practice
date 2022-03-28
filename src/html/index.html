@@ -5,11 +5,86 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Milonga&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
   <!-- Content starts here -->
-  <p>Testing: 1, 2, 3, 4</p>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Pirate Cove</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="article.html">Article</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="photos.html">Photos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-4">SHIP'S LOG</h1>
+      <p class="lead">A diary by Capt. Crit 'Red Bear' McGillicutty</p>
+    </div>
+  </div>
+
+  <div class="container highlight">
+    <div class="row">
+      <div class="col-md-6 col-lg-8 my-1">
+        <h1>Thar be monsters in the sea</h1>
+    </div>
+  </div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 my-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/kraken01.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">It was a foul sight, an obscene growth from the dark places of the worl, where incessant hunger is the driving force.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/kraken02.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Be not afraid of whirpools, of strong winds, and murky waves. Fear the creature that dwells in the darkest depths, the ice-shackled Kraken, that threatens to surface and your soul to keep.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/kraken03.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Look: the kraken of your idiocy. Yes, there it is, moving darkly beneath the water.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="card text-center g-4 my-4">
+        <div class="card-header" >
+          Site by Kraken Industries
+        </div>
+      </div>
+    </footer>
 
   <!-- Closing scripts here -->
   <script src="js/bootstrap.bundle.js"></script>
