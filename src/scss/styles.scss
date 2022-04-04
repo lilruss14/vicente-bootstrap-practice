@@ -40,6 +40,7 @@ a:hover {
   min-height: 450px;
   text-align: center;
   color: white;
+  font-family: 'Milonga', cursive;
 }
 
 // footer color
@@ -47,19 +48,4 @@ a:hover {
 .card-header {
   background: $green-400;
   color: black;
-}
-
-// using font for jumbotron
-
-.display-4 {
-  font-family: 'Milonga', cursive;
-}
-
-// formating carousel
-
-.mycarousel {
-  position: relative;
-  height: 300px;
-  width: 40%;
-  margin: 0 auto;
 }
